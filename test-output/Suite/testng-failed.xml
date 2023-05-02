@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testNGAnnotations.KeywordsInTestNg">
+        <methods>
+          <include name="ghi"/>
+          <include name="ghii"/>
+        </methods>
+      </class> <!-- testNGAnnotations.KeywordsInTestNg -->
+      <class name="testNGAnnotations.ActitimeLogoVerify">
+        <methods>
+          <include name="ScenarioVerifyLogo"/>
+          <include name="OpenBrowser"/>
+          <include name="ClosingBrowser"/>
+          <include name="ScenarioClick"/>
+          <include name="PageFactoryLogIn"/>
+          <include name="PageFactoryHomePage"/>
+        </methods>
+      </class> <!-- testNGAnnotations.ActitimeLogoVerify -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
